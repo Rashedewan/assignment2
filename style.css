@@ -54,6 +54,7 @@ ul li a{
  .shopabout{
     
       font-weight: 200;   
+      color:rgba(137, 135, 161, 1);
 }
 #cart{
   font-weight: 300;
@@ -124,4 +125,33 @@ ul li a{
 
 .shorty{
   margin: 0px 25px 126px;
+}
+
+/* descriptions */
+
+.descriptions{
+  display: flex;
+  margin-top: 210.12px;
+}
+
+.desc-text{
+  margin-left: 60px;
+}
+
+.desc-text ul li{
+  margin-top:20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.budge-img{
+  width: 286px;
+  height: 286px;
+  position: absolute;
+  margin-top:-125px;
+  margin-left:-200px;
+
+}
+
+img#drop-shadow{
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35));
 }
